@@ -37,8 +37,8 @@ A simple Bash script for performing email security configuration checks during e
 - A log file is also created (email_check_<timestamp>.log)
 
 
-Notes
+## Notes
 
-Alignment assessment is based on DNS configuration only
-Full validation requires header analysis and spoofing testing
-Spoofing must only be performed in authorised environments
+- Alignment assessment is based on DNS configuration only
+- Full validation requires header analysis and spoofing testing
+- Spoofing must only be performed in authorised environments
