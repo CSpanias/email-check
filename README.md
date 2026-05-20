@@ -13,12 +13,14 @@ A simple Bash script for performing email security configuration checks during e
 ## Usage
 
 ```bash
-./email-dns-check.sh <domain>./email-dns-check.sh <file_with_domains>./email-dns-check.sh <domain> --spoof --to <email>Show more lines
+./email-dns-check.sh <domain>
+./email-dns-check.sh <file_with_domains>
+./email-dns-check.sh <domain> --spoof --to <email>
 
 # Examples
 ./email-dns-check.sh example.com
 ./email-dns-check.sh domains.txt
-./email-dns-check.sh example.com --spoof --to lab@domain.localShow more lines
+./email-dns-check.sh example.com --spoof --to lab@domain.local
 ```
 
 ## Requirements
